@@ -1,0 +1,113 @@
+'''
+A data visualizer
+'''
+
+import seaborn as sns
+import numpy as np
+import sys
+import matplotlib.pyplot as plt
+import pandas as pd
+from pandas.api.types import is_string_dtype
+from pandas.api.types import is_numeric_dtype
+
+__author__ = ''
+__version__ = ''
+
+
+def _check_df(data):
+    '''check whether the data is pandas dataframe'''
+
+    if not isinstance(data, pd.DataFrame):
+        raise Exception("Error! data must be pandas data frame!")
+
+
+def _set_x_y_label(ax, x_label, y_label):
+    '''set x and y label'''
+    if x_label:
+        ax.set_xlabel(x_label)
+    if y_label:
+        ax.set_ylabel(y_label)
+
+
+class DataVisualizer(object):
+    '''
+    A visualizer for analysing and plotting data used for Machine Learning purpose.
+    It can be viewed as a matplotlib and seaborn wrapper.
+    '''
+
+    def __init__(self):
+        pass
+
+    def box_plot(self, data=None, x=None, y=None, x_label=None, y_label=None, x_label_rotation=None,
+                 bottom_room=None, title=None, linewidth=1, orient='v'):
+        # TODO (1.) add hue https://seaborn.pydata.org/generated/seaborn.boxplot.html
+        # TODO (2.) incorporate orient
+        # TODO (3.) explore col in sns.boxplot
+
+        '''wrapper for seaborn box_plot
+        args:
+        x
+        '''
+        _check_df(data)
+
+        if (x is None and y is not None) or (y is None and x is not None):
+            raise Exception("You must input x and y at the same time!")
+        # (1.) when x and y are constrained
+        elif x and y:
+            # check validation of x,y
+            keys = set(data.keys())
+            if x not in keys:
+                raise Exception("please check x! x should be the key of the DataFrame")
+            if y not in keys:
+                raise Exception("please check y! y should be the key of the DataFrame")
+            ax = sns.boxplot(x=x, y=y, data=data, linewidth=linewidth, orient=orient)
+        # (2.) x -> all original attributors of data frame, y -> values of attributors
+        else:
+            ax = sns.boxplot(data=data, linewidth=linewidth, orient=orient)
+
+        # x_label_rotation
+        if x_label_rotation:
+            plt.xticks(rotation=x_label_rotation)
+        #
+
+        # make room for the labels
+        if bottom_room:
+            plt.gcf().subplots_adjust(bottom=bottom_room)
+        #
+
+        # set x_y_label
+        _set_x_y_label(ax, x_label, y_label)
+
+        # set title
+        ax.set_title(title)
+
+        plt.show()
+
+    def histogram_plot(self, data=None, is_single_attributor=False, is_split_plot=True,
+                       x_label=None, y_label=None, title=None):
+        '''wrapper for seaborn distplot'''
+
+        if is_single_attributor:
+            pass
+        if not is_single_attributor:
+            _check_df(data)
+            for attributor in data:
+                attr_data = data[attributor]
+                # TODO set x,y labels, title for each histogram plot
+                # check the type of the df
+                if is_numeric_dtype(attr_data):
+                    ax = sns.distplot(data[attributor])
+                    plt.xlabel(attributor)
+                    if is_split_plot:
+                        plt.show()
+                else:
+                    raise Exception("Attributor {} is not valid for histogram plot".format(attributor))
+            if not is_split_plot:
+                # set x_y_label
+                _set_x_y_label(ax, x_label, y_label)
+
+                # set title
+                ax.set_title(title)
+
+                plt.show()
+
