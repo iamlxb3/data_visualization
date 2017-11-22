@@ -10,6 +10,8 @@ import pandas as pd
 from pandas.api.types import is_string_dtype
 from pandas.api.types import is_numeric_dtype
 from pandas.tools.plotting import radviz
+from pandas.tools.plotting import parallel_coordinates
+
 
 
 __author__ = ''
@@ -144,5 +146,10 @@ class DataVisualizer(object):
 
         fig = radviz(data, labels, color=sns.color_palette())
 
+        plt.show()
 
+    def pcoord_plot(self, data=None, labels=None):
+        '''wrapper for pandas parallel coordinate'''
+
+        fig = parallel_coordinates(data, labels, color=sns.color_palette())
         plt.show()

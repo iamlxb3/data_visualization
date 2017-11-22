@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ce6925f-ae1e-4ebd-8b1d-b36037eed664" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/df1" afterPath="$PROJECT_DIR$/df1" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data_visualizer.py" afterPath="$PROJECT_DIR$/data_visualizer.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2.py" afterPath="$PROJECT_DIR$/test2.py" />
     </list>
@@ -20,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/test2.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="725">
-              <caret line="67" column="22" lean-forward="true" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+              <caret line="69" column="23" lean-forward="false" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -31,8 +30,8 @@
       <file leaf-file-name="data_visualizer.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data_visualizer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="599">
-              <caret line="140" column="19" lean-forward="false" selection-start-line="140" selection-start-column="8" selection-end-line="140" selection-end-column="19" />
+            <state relative-caret-position="662">
+              <caret line="151" column="49" lean-forward="true" selection-start-line="151" selection-start-column="30" selection-end-line="151" selection-end-column="49" />
               <folding>
                 <element signature="e#27#48#0" expanded="true" />
               </folding>
@@ -394,7 +393,7 @@
     <entry file="file://$PROJECT_DIR$/test2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="725">
-          <caret line="67" column="22" lean-forward="true" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+          <caret line="69" column="23" lean-forward="false" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
@@ -403,8 +402,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data_visualizer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="140" column="19" lean-forward="false" selection-start-line="140" selection-start-column="8" selection-end-line="140" selection-end-column="19" />
+        <state relative-caret-position="662">
+          <caret line="151" column="49" lean-forward="true" selection-start-line="151" selection-start-column="30" selection-end-line="151" selection-end-column="49" />
           <folding>
             <element signature="e#27#48#0" expanded="true" />
           </folding>
