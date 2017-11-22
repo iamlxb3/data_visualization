@@ -2,396 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ce6925f-ae1e-4ebd-8b1d-b36037eed664" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/df1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/data_visualization.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data_visualizer.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-08_AA_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-08_AXP_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-08_BA_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-08_CAT_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-08_CSCO_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-08_CVX_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-08_DD_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-08_DIS_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-08_GE_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-08_HD_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-08_IBM_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-08_INTC_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-08_JNJ_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-08_JPM_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-08_KO_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-08_MCD_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-08_MMM_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-08_MRK_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-08_MSFT_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-08_PFE_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-08_PG_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-08_TRV_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-08_UTX_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-08_VZ_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-08_WMT_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-08_XOM_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-15_AA_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-15_AXP_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-15_BA_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-15_CAT_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-15_CSCO_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-15_CVX_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-15_DD_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-15_DIS_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-15_GE_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-15_HD_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-15_IBM_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-15_INTC_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-15_JNJ_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-15_JPM_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-15_KO_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-15_MCD_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-15_MMM_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-15_MRK_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-15_MSFT_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-15_PFE_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-15_PG_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-15_TRV_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-15_UTX_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-15_VZ_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-15_WMT_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-15_XOM_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-22_AA_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-22_AXP_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-22_BA_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-22_CAT_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-22_CSCO_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-22_CVX_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-22_DD_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-22_DIS_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-22_GE_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-22_HD_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-22_IBM_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-22_INTC_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-22_JNJ_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-22_JPM_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-22_KO_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-22_MCD_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-22_MMM_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-22_MRK_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-22_MSFT_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-22_PFE_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-22_PG_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-22_TRV_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-22_UTX_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-22_VZ_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-22_WMT_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-22_XOM_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-01_AA_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-01_AXP_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-01_BA_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-01_CAT_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-01_CSCO_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-01_CVX_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-01_DD_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-01_DIS_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-01_GE_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-01_HD_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-01_IBM_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-01_INTC_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-01_JNJ_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-01_JPM_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-01_KO_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-01_MCD_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-01_MMM_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-01_MRK_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-01_MSFT_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-01_PFE_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-01_PG_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-01_TRV_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-01_UTX_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-01_VZ_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-01_WMT_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-01_XOM_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-08_AA_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-08_AXP_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-08_BA_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-08_CAT_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-08_CSCO_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-08_CVX_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-08_DD_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-08_DIS_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-08_GE_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-08_HD_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-08_IBM_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-08_INTC_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-08_JNJ_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-08_JPM_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-08_KO_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-08_MCD_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-08_MMM_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-08_MRK_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-08_MSFT_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-08_PFE_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-08_PG_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-08_TRV_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-08_UTX_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-08_VZ_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-08_WMT_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-08_XOM_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-15_AA_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-15_AXP_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-15_BA_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-15_CAT_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-15_CSCO_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-15_CVX_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-15_DD_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-15_DIS_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-15_GE_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-15_HD_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-15_IBM_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-15_INTC_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-15_JNJ_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-15_JPM_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-15_KO_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-15_MCD_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-15_MMM_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-15_MRK_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-15_MSFT_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-15_PFE_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-15_PG_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-15_TRV_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-15_UTX_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-15_VZ_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-15_WMT_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-15_XOM_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-22_AA_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-22_AXP_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-22_BA_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-22_CAT_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-22_CSCO_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-22_CVX_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-22_DD_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-22_DIS_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-22_GE_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-22_HD_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-22_IBM_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-22_INTC_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-22_JNJ_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-22_JPM_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-22_KO_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-22_MCD_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-22_MMM_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-22_MRK_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-22_MSFT_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-22_PFE_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-22_PG_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-22_TRV_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-22_UTX_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-22_VZ_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-22_WMT_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-22_XOM_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-29_AA_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-29_AXP_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-29_BA_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-29_CAT_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-29_CSCO_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-29_CVX_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-29_DD_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-29_DIS_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-29_GE_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-29_HD_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-29_IBM_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-29_INTC_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-29_JNJ_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-29_JPM_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-29_KO_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-29_MCD_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-29_MMM_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-29_MRK_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-29_MSFT_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-29_PFE_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-29_PG_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-29_TRV_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-29_UTX_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-29_VZ_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-29_WMT_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-03-29_XOM_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-05_AA_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-05_AXP_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-05_BA_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-05_CAT_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-05_CSCO_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-05_CVX_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-05_DD_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-05_DIS_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-05_GE_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-05_HD_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-05_IBM_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-05_INTC_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-05_JNJ_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-05_JPM_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-05_KO_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-05_MCD_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-05_MMM_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-05_MRK_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-05_MSFT_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-05_PFE_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-05_PG_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-05_TRV_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-05_UTX_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-05_VZ_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-05_WMT_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-05_XOM_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-12_AA_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-12_AXP_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-12_BA_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-12_CAT_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-12_CSCO_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-12_CVX_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-12_DD_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-12_DIS_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-12_GE_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-12_HD_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-12_IBM_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-12_INTC_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-12_JNJ_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-12_JPM_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-12_KO_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-12_MCD_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-12_MMM_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-12_MRK_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-12_MSFT_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-12_PFE_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-12_PG_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-12_TRV_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-12_UTX_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-12_VZ_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-12_WMT_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-12_XOM_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-19_AA_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-19_AXP_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-19_BA_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-19_CAT_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-19_CSCO_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-19_CVX_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-19_DD_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-19_DIS_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-19_GE_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-19_HD_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-19_IBM_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-19_INTC_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-19_JNJ_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-19_JPM_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-19_KO_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-19_MCD_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-19_MMM_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-19_MRK_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-19_MSFT_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-19_PFE_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-19_PG_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-19_TRV_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-19_UTX_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-19_VZ_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-19_WMT_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-19_XOM_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-26_AA_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-26_AXP_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-26_BA_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-26_CAT_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-26_CSCO_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-26_CVX_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-26_DD_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-26_DIS_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-26_GE_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-26_HD_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-26_IBM_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-26_INTC_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-26_JNJ_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-26_JPM_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-26_KO_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-26_MCD_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-26_MMM_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-26_MRK_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-26_MSFT_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-26_PFE_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-26_PG_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-26_TRV_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-26_UTX_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-26_VZ_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-26_WMT_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-04-26_XOM_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-03_AA_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-03_AXP_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-03_BA_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-03_CAT_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-03_CSCO_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-03_CVX_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-03_DD_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-03_DIS_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-03_GE_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-03_HD_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-03_IBM_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-03_INTC_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-03_JNJ_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-03_JPM_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-03_KO_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-03_MCD_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-03_MMM_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-03_MRK_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-03_MSFT_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-03_PFE_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-03_PG_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-03_TRV_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-03_UTX_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-03_VZ_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-03_WMT_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-03_XOM_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-10_AA_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-10_AXP_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-10_BA_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-10_CAT_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-10_CSCO_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-10_CVX_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-10_DD_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-10_DIS_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-10_GE_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-10_HD_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-10_IBM_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-10_INTC_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-10_JNJ_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-10_JPM_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-10_KO_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-10_MCD_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-10_MMM_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-10_MRK_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-10_MSFT_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-10_PFE_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-10_PG_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-10_TRV_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-10_UTX_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-10_VZ_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-10_WMT_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-10_XOM_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-17_AA_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-17_AXP_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-17_BA_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-17_CAT_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-17_CSCO_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-17_CVX_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-17_DD_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-17_DIS_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-17_GE_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-17_HD_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-17_IBM_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-17_INTC_pos.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-17_JNJ_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-17_JPM_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-17_KO_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-17_MCD_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-17_MMM_neg.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-05-17_MRK_pos.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/df1" afterPath="$PROJECT_DIR$/df1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data_visualizer.py" afterPath="$PROJECT_DIR$/data_visualizer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2.py" afterPath="$PROJECT_DIR$/test2.py" />
     </list>
     <ignored path="dow_jones_index_extended_labeled/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -403,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="test2.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="746">
-              <caret line="61" column="62" lean-forward="true" selection-start-line="61" selection-start-column="62" selection-end-line="61" selection-end-column="62" />
+            <state relative-caret-position="725">
+              <caret line="67" column="22" lean-forward="true" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -415,14 +28,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data_visualizer.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="data_visualizer.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data_visualizer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="746">
-              <caret line="113" column="0" lean-forward="true" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+            <state relative-caret-position="599">
+              <caret line="140" column="19" lean-forward="false" selection-start-line="140" selection-start-column="8" selection-end-line="140" selection-end-column="19" />
               <folding>
                 <element signature="e#27#48#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="linearmodels.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Continuum/Anaconda3/Lib/site-packages/seaborn/linearmodels.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-347">
+              <caret line="1427" column="4" lean-forward="false" selection-start-line="1427" selection-start-column="4" selection-end-line="1427" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="figure.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Continuum/Anaconda3/Lib/site-packages/matplotlib/figure.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="1608" column="8" lean-forward="false" selection-start-line="1608" selection-start-column="8" selection-end-line="1608" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -687,7 +320,7 @@
         <state relative-caret-position="126">
           <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#0#21#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -713,7 +346,7 @@
         <state relative-caret-position="336">
           <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#0#21#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -726,6 +359,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Continuum/Anaconda3/Lib/site-packages/matplotlib/figure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="1608" column="8" lean-forward="false" selection-start-line="1608" selection-start-column="8" selection-end-line="1608" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Continuum/Anaconda3/Lib/site-packages/seaborn/linearmodels.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-347">
+          <caret line="1427" column="4" lean-forward="false" selection-start-line="1427" selection-start-column="4" selection-end-line="1427" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Continuum/Anaconda3/Lib/site-packages/pandas/core/generic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="883" column="8" lean-forward="false" selection-start-line="883" selection-start-column="8" selection-end-line="883" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dow_jones_index_extended_labeled/2010-02-08_AA_pos.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -734,22 +391,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_visualizer.py">
+    <entry file="file://$PROJECT_DIR$/test2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="746">
-          <caret line="113" column="0" lean-forward="true" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+        <state relative-caret-position="725">
+          <caret line="67" column="22" lean-forward="true" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
           <folding>
-            <element signature="e#27#48#0" expanded="true" />
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test2.py">
+    <entry file="file://$PROJECT_DIR$/data_visualizer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="746">
-          <caret line="61" column="62" lean-forward="true" selection-start-line="61" selection-start-column="62" selection-end-line="61" selection-end-column="62" />
+        <state relative-caret-position="599">
+          <caret line="140" column="19" lean-forward="false" selection-start-line="140" selection-start-column="8" selection-end-line="140" selection-end-column="19" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#27#48#0" expanded="true" />
           </folding>
         </state>
       </provider>

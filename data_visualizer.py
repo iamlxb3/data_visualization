@@ -9,6 +9,8 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from pandas.api.types import is_string_dtype
 from pandas.api.types import is_numeric_dtype
+from pandas.tools.plotting import radviz
+
 
 __author__ = ''
 __version__ = ''
@@ -28,6 +30,10 @@ def _set_x_y_label(ax, x_label, y_label):
     if y_label:
         ax.set_ylabel(y_label)
 
+def _set_title(ax, title):
+    '''set title'''
+    if title:
+        ax.set_title(title)
 
 class DataVisualizer(object):
     '''
@@ -39,13 +45,16 @@ class DataVisualizer(object):
         pass
 
     def box_plot(self, data=None, x=None, y=None, x_label=None, y_label=None, x_label_rotation=None,
-                 bottom_room=None, title=None, linewidth=1, orient='v'):
+                 bottom_room=None, title=None, linewidth=1, orient='v',
+                 plot_margin_ajust = (0, 1, 1, 0)):
         # TODO (1.) add hue https://seaborn.pydata.org/generated/seaborn.boxplot.html
         # TODO (2.) incorporate orient
         # TODO (3.) explore col in sns.boxplot
 
         '''wrapper for seaborn box_plot
         args:
+
+        plot_margin_ajust: left=None, bottom=None, right=None, top=None
         x
         '''
         _check_df(data)
@@ -70,16 +79,15 @@ class DataVisualizer(object):
             plt.xticks(rotation=x_label_rotation)
         #
 
-        # make room for the labels
-        if bottom_room:
-            plt.gcf().subplots_adjust(bottom=bottom_room)
+        # adjust margins
+        plt.gcf().subplots_adjust(*plot_margin_ajust)
         #
 
         # set x_y_label
         _set_x_y_label(ax, x_label, y_label)
 
         # set title
-        ax.set_title(title)
+        _set_title(ax, title)
 
         plt.show()
 
@@ -107,7 +115,34 @@ class DataVisualizer(object):
                 _set_x_y_label(ax, x_label, y_label)
 
                 # set title
-                ax.set_title(title)
+                _set_title(ax, title)
 
                 plt.show()
 
+    def scatter_plot(self, data=None, diag_kind='kde', plot_margin_ajust=(0, 0, 1, 1), marker_size=5,
+                     x_label=None, y_label=None, title=None):
+        '''wrapper for seaborn pairplot
+        Normally it will take a long time to produce output
+        kwargs:
+        diag_kind : {‘hist’, ‘kde’}
+        '''
+        # TODO (1.) fix labels overlap
+        ax = sns.pairplot(data, diag_kind='kde', plot_kws={"s": marker_size})
+        plt.gcf().subplots_adjust(*plot_margin_ajust)
+
+        # set x_y_label
+        _set_x_y_label(ax, x_label, y_label)
+
+        # set title
+        _set_title(ax, title)
+
+        plt.show()
+
+    def radial_plot(self, data=None, labels=None, x_label=None, y_label=None, title=None):
+        '''wrapper for pandas radviz'''
+        # TODO set title, labels
+
+        fig = radviz(data, labels, color=sns.color_palette())
+
+
+        plt.show()
