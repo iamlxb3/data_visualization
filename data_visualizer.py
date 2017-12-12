@@ -1,11 +1,10 @@
 '''
 A data visualizer
 '''
-
+import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 import sys
-import matplotlib.pyplot as plt
 import pandas as pd
 from pandas.api.types import is_string_dtype
 from pandas.api.types import is_numeric_dtype
@@ -149,7 +148,36 @@ class DataVisualizer(object):
         plt.show()
 
     def pcoord_plot(self, data=None, labels=None):
-        '''wrapper for pandas parallel coordinate'''
+        '''wrapper for pandas parallel coordinate, observe samples in classfication tasks'''
 
         fig = parallel_coordinates(data, labels, color=sns.color_palette())
         plt.show()
+
+    def heatmap_plot(self, data=None):
+        ''''''
+        # TODO Y axes is too crowded
+
+        # https://seaborn.pydata.org/generated/seaborn.heatmap.html
+        ax = sns.heatmap(data)
+        ax.set_yticklabels(ax.get_yticklabels(), rotation=45, fontsize=8)
+        plt.show()
+
+    def correlation_matrix_plot(self):
+        # TODO
+        # https://machinelearningmastery.com/visualize-machine-learning-data-python-pandas/
+        pass
+        
+    def feature_attribution_plot(self, data=None, target_metric=None, plot_features=None):
+        sns.reset_orig()
+        _check_df(data)
+        
+        metric_values = data[target_metric].values
+        for feature in plot_features:
+            f1, (ax1) = plt.subplots(1, sharex=True, sharey=True)
+            feature_values = data[feature].values
+            ax1.plot(feature_values, metric_values, 'rx')
+            ax1.legend()
+            x_label = feature
+            y_label = target_metric
+            _set_x_y_label(ax1, x_label, y_label)
+            plt.show()
