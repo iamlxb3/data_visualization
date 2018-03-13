@@ -11,8 +11,6 @@ from pandas.api.types import is_numeric_dtype
 from pandas.tools.plotting import radviz
 from pandas.tools.plotting import parallel_coordinates
 
-
-
 __author__ = ''
 __version__ = ''
 
@@ -31,10 +29,12 @@ def _set_x_y_label(ax, x_label, y_label):
     if y_label:
         ax.set_ylabel(y_label)
 
+
 def _set_title(ax, title):
     '''set title'''
     if title:
         ax.set_title(title)
+
 
 class DataVisualizer(object):
     '''
@@ -47,7 +47,7 @@ class DataVisualizer(object):
 
     def box_plot(self, data=None, x=None, y=None, x_label=None, y_label=None, x_label_rotation=None,
                  bottom_room=None, title=None, linewidth=1, orient='v',
-                 plot_margin_ajust = (0, 1, 1, 0)):
+                 plot_margin_ajust=(0, 1, 1, 0)):
         # TODO (1.) add hue https://seaborn.pydata.org/generated/seaborn.boxplot.html
         # TODO (2.) incorporate orient
         # TODO (3.) explore col in sns.boxplot
@@ -92,25 +92,32 @@ class DataVisualizer(object):
 
         plt.show()
 
-    def histogram_plot(self, data=None, is_single_attributor=False, is_split_plot=True,
+    def histogram_plot(self, data=None, single_attributor=None, is_split_plot=True,
                        x_label=None, y_label=None, title=None):
         '''wrapper for seaborn distplot'''
 
-        if is_single_attributor:
-            pass
-        if not is_single_attributor:
+        def _single_plot(data, attributor, is_split_plot):
+            # check the type of the df
+            attr_data = data[attributor]
+            if is_numeric_dtype(attr_data):
+                ax = sns.distplot(data[attributor])
+                plt.xlabel(attributor)
+                if is_split_plot:
+                    plt.show()
+                return ax
+            else:
+                raise Exception("Attributor {} is not valid for histogram plot".format(attributor))
+
+        # TODO, add is_single_attributor
+        if single_attributor:
+            ax = _single_plot(data, single_attributor, True)
+
+        if not single_attributor:
             _check_df(data)
             for attributor in data:
-                attr_data = data[attributor]
                 # TODO set x,y labels, title for each histogram plot
-                # check the type of the df
-                if is_numeric_dtype(attr_data):
-                    ax = sns.distplot(data[attributor])
-                    plt.xlabel(attributor)
-                    if is_split_plot:
-                        plt.show()
-                else:
-                    raise Exception("Attributor {} is not valid for histogram plot".format(attributor))
+                ax = _single_plot(data, attributor, is_split_plot)
+
             if not is_split_plot:
                 # set x_y_label
                 _set_x_y_label(ax, x_label, y_label)
@@ -166,11 +173,35 @@ class DataVisualizer(object):
         # TODO
         # https://machinelearningmastery.com/visualize-machine-learning-data-python-pandas/
         pass
-        
+
+    def pie_chart_plot(self, data, attributor):
+        '''pie chart plot for dataframe
+        values of attributor should be discrete
+        possbible attributor: gender, date
+        '''
+        # TODO: https://stackoverflow.com/questions/31499033/how-do-i-plot-a-pie-chart-using-pandas-with-this-data
+
+        _check_df(data)
+        data[attributor].value_counts().plot.pie(autopct = '%.2f')
+        plt.show()
+
+    def date_bar_chart_plot(self, data, attributor):
+        '''bar chart plot for dataframe
+        values of attributor should be discrete
+        possbible attributor: gender, date
+        return the date count of (year, month)
+        '''
+        # TODO https://stackoverflow.com/questions/27365467/can-pandas-plot-a-histogram-of-dates
+        # TODO add title, x_label, y_label
+        _check_df(data)
+        data[attributor].groupby([data[attributor].dt.year, data[attributor].dt.month]).count().plot(kind="bar")
+        plt.gcf().subplots_adjust(bottom=0.2)
+        plt.show()
+
     def feature_attribution_plot(self, data=None, target_metric=None, plot_features=None):
         sns.reset_orig()
         _check_df(data)
-        
+
         metric_values = data[target_metric].values
         for feature in plot_features:
             f1, (ax1) = plt.subplots(1, sharex=True, sharey=True)
