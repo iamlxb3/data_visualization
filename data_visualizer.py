@@ -45,12 +45,24 @@ class DataVisualizer(object):
     def __init__(self):
         pass
 
-    def box_plot(self, data=None, x=None, y=None, x_label=None, y_label=None, x_label_rotation=None,
-                 bottom_room=None, title=None, linewidth=1, orient='v',
-                 plot_margin_ajust=(0, 1, 1, 0)):
+    def box_plot(self,
+                 data=None,
+                 x=None,
+                 y=None,
+                 x_label=None,
+                 y_label=None,
+                 x_label_rotation=None,
+                 bottom_room=None,
+                 title=None,
+                 linewidth=1,
+                 orient='v',
+                 plot_margin_ajust=(0, 1, 1, 0),
+                 save_path=None,
+                 is_show=True):
         # TODO (1.) add hue https://seaborn.pydata.org/generated/seaborn.boxplot.html
         # TODO (2.) incorporate orient
         # TODO (3.) explore col in sns.boxplot
+        # TODO (4.) check plot_margin_ajust
 
         '''wrapper for seaborn box_plot
         args:
@@ -81,7 +93,7 @@ class DataVisualizer(object):
         #
 
         # adjust margins
-        plt.gcf().subplots_adjust(*plot_margin_ajust)
+        # plt.gcf().subplots_adjust(*plot_margin_ajust)
         #
 
         # set x_y_label
@@ -90,7 +102,11 @@ class DataVisualizer(object):
         # set title
         _set_title(ax, title)
 
-        plt.show()
+        if save_path:
+            plt.savefig(save_path)
+
+        if is_show:
+            plt.show()
 
     def histogram_plot(self, data=None, single_attributor=None, is_split_plot=True,
                        x_label=None, y_label=None, title=None):
