@@ -64,12 +64,18 @@ class DataVisualizer(object):
         # TODO (3.) explore col in sns.boxplot
         # TODO (4.) check plot_margin_ajust
 
-        '''wrapper for seaborn box_plot
+        """wrapper for seaborn box_plot
         args:
-
         plot_margin_ajust: left=None, bottom=None, right=None, top=None
         x
-        '''
+
+        Example:
+        --------------------------BASIC--------------------------
+        >>> v1 = DataVisualizer()
+        >>> v1.box_plot(data=data, x='feature1', y='target_value')
+
+
+        """
         _check_df(data)
 
         if (x is None and y is not None) or (y is None and x is not None):
@@ -145,11 +151,11 @@ class DataVisualizer(object):
 
     def scatter_plot(self, data=None, diag_kind='kde', plot_margin_ajust=(0, 0, 1, 1), marker_size=5,
                      x_label=None, y_label=None, title=None):
-        '''wrapper for seaborn pairplot
+        """wrapper for seaborn pairplot
         Normally it will take a long time to produce output
         kwargs:
-        diag_kind : {‘hist’, ‘kde’}
-        '''
+        diag_kind : {'hist', 'kde'}
+        """
         # TODO (1.) fix labels overlap
         ax = sns.pairplot(data, diag_kind='kde', plot_kws={"s": marker_size})
         plt.gcf().subplots_adjust(*plot_margin_ajust)
@@ -177,7 +183,22 @@ class DataVisualizer(object):
         plt.show()
 
     def heatmap_plot(self, data=None):
-        ''''''
+        """
+
+        Example 1
+        >>> flights = sns.load_dataset("flights")
+        >>> flights = flights.pivot("month", "year", "passengers")
+        >>> ax = sns.heatmap(flights)
+
+        Example 2
+        >>> data2 = pd.read_csv('example.csv')
+        >>> data_pivot = data2.pivot_table(index="feature1", columns="feature2", values="target_value")
+        >>> data_visualizer1 = DataVisualizer()
+        >>> data_visualizer1.heatmap_plot(data_pivot)
+
+        :param data:
+        :return:
+        """
         # TODO Y axes is too crowded
 
         # https://seaborn.pydata.org/generated/seaborn.heatmap.html
@@ -198,7 +219,7 @@ class DataVisualizer(object):
         # TODO: https://stackoverflow.com/questions/31499033/how-do-i-plot-a-pie-chart-using-pandas-with-this-data
 
         _check_df(data)
-        data[attributor].value_counts().plot.pie(autopct = '%.2f')
+        data[attributor].value_counts().plot.pie(autopct='%.2f')
         plt.show()
 
     def date_bar_chart_plot(self, data, attributor):
