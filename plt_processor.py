@@ -1,5 +1,10 @@
 import numpy as np
 import collections
+import pandas as pd
+import glob
+import os
+import ntpath
+from sklearn.manifold import TSNE
 
 
 class PltProcessor:
@@ -65,3 +70,18 @@ class PltProcessor:
 
         print(sorted(collections.Counter(bin_values).items()))
         return data
+
+    def tsne_reduction(self, npy_dir, label_csv_path, feature_names, verbose=2, metric='l2', n_components=2):
+        df = pd.read_csv(label_csv_path)
+        npys = glob.glob(os.path.join(npy_dir, '*.npy'))
+        arrs = []
+        labels = []
+        for npy_path in npys:
+            index = int(ntpath.basename(npy_path)[:-4])
+            label = int(df.loc[df['index'] == index, 'label'].values)
+            arrs.append(np.load(npy_path))
+            labels.append(label)
+        X_embedded = TSNE(n_components=n_components, verbose=verbose, n_iter=10000, n_iter_without_progress=1000,
+                          metric=metric).fit_transform(arrs)
+        df = pd.DataFrame({feature_names[0]: X_embedded[:, 0], feature_names[1]: X_embedded[:, 1], 'label': labels})
+        return df

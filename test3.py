@@ -13,7 +13,7 @@ df1 = pd.read_csv('hyper_parameter_df.csv')
 
 
 
-from data_visualizer import DataVisualizer
+from .data_visualizer import DataVisualizer
 data_visualizer1 = DataVisualizer()
 target_metric = 'avg_accuracy'
 plot_features = ['learning_rate_init', 'hidden_layer_1_size', 'alpha', 'max_n_gram', 'validation_fraction', 'max_features']

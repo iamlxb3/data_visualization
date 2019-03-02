@@ -3,13 +3,10 @@ A data visualizer
 '''
 import matplotlib.pyplot as plt
 import seaborn as sns
-import numpy as np
-import sys
 import pandas as pd
-from pandas.api.types import is_string_dtype
 from pandas.api.types import is_numeric_dtype
-from pandas.tools.plotting import radviz
-from pandas.tools.plotting import parallel_coordinates
+from pandas.plotting import radviz
+from pandas.plotting import parallel_coordinates
 
 __author__ = ''
 __version__ = ''
@@ -149,7 +146,7 @@ class DataVisualizer(object):
 
                 plt.show()
 
-    def scatter_plot(self, data=None, diag_kind='kde', plot_margin_ajust=(0, 0, 1, 1), marker_size=5,
+    def scatter_plot(self, data=None, plot_margin_ajust=(0, 0, 1, 1),
                      x_label=None, y_label=None, title=None):
         """wrapper for seaborn pairplot
         Normally it will take a long time to produce output
@@ -157,7 +154,7 @@ class DataVisualizer(object):
         diag_kind : {'hist', 'kde'}
         """
         # TODO (1.) fix labels overlap
-        ax = sns.pairplot(data, diag_kind='kde', plot_kws={"s": marker_size})
+        ax = sns.scatterplot(x=x_label, y=y_label, hue="label", data=data)
         plt.gcf().subplots_adjust(*plot_margin_ajust)
 
         # set x_y_label
