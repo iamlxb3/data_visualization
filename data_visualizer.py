@@ -147,14 +147,14 @@ class DataVisualizer(object):
                 plt.show()
 
     def scatter_plot(self, data=None, plot_margin_ajust=(0, 0, 1, 1),
-                     x_label=None, y_label=None, title=None):
+                     x_label=None, y_label=None, title=None, hue='label'):
         """wrapper for seaborn pairplot
         Normally it will take a long time to produce output
         kwargs:
         diag_kind : {'hist', 'kde'}
         """
         # TODO (1.) fix labels overlap
-        ax = sns.scatterplot(x=x_label, y=y_label, hue="label", data=data)
+        ax = sns.scatterplot(x=x_label, y=y_label, hue=hue, data=data)
         plt.gcf().subplots_adjust(*plot_margin_ajust)
 
         # set x_y_label
