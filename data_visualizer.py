@@ -154,7 +154,8 @@ class DataVisualizer(object):
         diag_kind : {'hist', 'kde'}
         """
         # TODO (1.) fix labels overlap
-        ax = sns.scatterplot(x=x_label, y=y_label, hue=hue, data=data)
+        palette = sns.color_palette("bright", len(set(data['label'].values)))
+        ax = sns.scatterplot(x=x_label, y=y_label, hue=hue, data=data, palette=palette, legend="full")
         plt.gcf().subplots_adjust(*plot_margin_ajust)
 
         # set x_y_label
