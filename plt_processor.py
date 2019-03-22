@@ -85,3 +85,13 @@ class PltProcessor:
                           metric=metric).fit_transform(arrs)
         df = pd.DataFrame({feature_names[0]: X_embedded[:, 0], feature_names[1]: X_embedded[:, 1], 'label': labels})
         return df
+
+    def tsne_reduction_without_label(self, npy_dir, feature_names, verbose=2, metric='l2', n_components=2):
+        npys = glob.glob(os.path.join(npy_dir, '*.npy'))
+        arrs = []
+        for npy_path in npys:
+            arrs.append(np.load(npy_path))
+        X_embedded = TSNE(n_components=n_components, verbose=verbose, n_iter=10000, n_iter_without_progress=1000,
+                          metric=metric).fit_transform(arrs)
+        df = pd.DataFrame({feature_names[0]: X_embedded[:, 0], feature_names[1]: X_embedded[:, 1]})
+        return df
